@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+**/.vs/
+
+# Build folders
+bin/
+obj/
+**/bin/
+**/obj/
+
+# User-specific files
+*.user
+*.suo
+*.cache
+
+# Visual Studio Code
+.vscode/
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
