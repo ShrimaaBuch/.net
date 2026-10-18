@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Student Feedback";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Feedback</title>
+</head>
+<body>
+    <h2>Student Feedback Management</h2>
+
+    <p>Welcome to the Student Feedback System.</p>
+
+    <p>
+        <a href="@Url.Action("Create", "Feedback")">
+            Give Feedback
+        </a>
+    </p>
+
+    <p>
+        <a href="@Url.Action("List", "Feedback")">
+            View Feedback List
+        </a>
+    </p>
+</body>
+</html>
