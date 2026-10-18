@@ -1,0 +1,23 @@
+﻿@model Practical_6.Models.Product
+
+<h1>Product Details</h1>
+
+<p>Product ID: @Model.ProductId</p>
+
+<p>Product Name: @Model.ProductName</p>
+
+<p>Category: @Model.Category</p>
+
+<p>Description: @Model.Description</p>
+
+<p>Price: @Model.Price</p>
+
+<p>Quantity: @Model.Quantity</p>
+
+<p>
+    Image:
+    <br />
+    <img src="@Model.Image" width="200" />
+</p>
+
+@Html.ActionLink("Back", "Index")
